@@ -1,0 +1,166 @@
+body{
+    margin:0;
+    font-family: roboto, arial;
+    font-size:16px;
+    padding-top:102px;
+}
+
+header{
+    width:100%;
+    box-sizing: border-box;
+    background-color: #ffcb00;
+    padding:10px;
+    display: inline-block;
+    position:fixed;
+    top:0;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    transition: all 0.5s;
+}
+
+header nav li a:hover{
+   color:red;
+}
+
+.banner img{
+    width:100%;
+}
+
+main{
+    width: 1000px;
+    margin:auto;
+}
+
+main h1, footer p{
+    text-align: center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.grid .coluna img{
+    width:100%;
+}
+
+.grid .coluna{
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display:inline-block;
+}
+
+.grid .coluna a{
+    background-color:#ffcb00;
+    padding: 10px 20px;
+    border-radius:15px;
+    text-decoration: none;
+    color:white;
+    transition:0.5s;
+}
+
+.grid .coluna a:hover{
+    background-color:red;
+    color:white;
+}
+
+footer{
+    background-color:#ffcb00;
+    padding: 20px 0px;
+}
+
+footer p{
+    color:white;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.5s;
+    border-radius:100px;
+    width:30px;
+    height: 30px;
+    display:inline-block;
+    line-height: 30px;
+}
+
+footer a:hover{
+    color:white;
+    background:red;
+}
+.menu{
+    display: none;
+}
+.mostrar{
+    display:block;
+}
+
+
+@media (max-width:480px){
+
+    .banner{
+        display:none;
+    }
+
+    header img{
+        width: 270px;
+    }
+
+    main{
+        width:100%;
+    }
+
+    .grid{
+        grid-template-columns: 100%;
+    }
+
+    .grid .coluna{
+        display:block;
+    }
+
+    header nav ul{
+        display: block;
+        text-align: center;
+        margin:0;
+        padding:0;
+    }
+
+    header nav ul li{
+        width:100%;
+    }
+    header nav{
+        display: none;
+    }
+
+    .menu{
+        text-decoration: none;
+        display:block;
+        color:white;
+        float:right;
+        border: 1px solid white;
+        padding:10px 15px;
+        margin-top:15px;
+        border-radius: 5px;
+    }
+}

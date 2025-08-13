@@ -1,0 +1,58 @@
+body{
+    font-family: roboto;
+    margin:0;
+}
+
+@font-face {
+    font-family:"spider" ;
+    src: url("/fonte/The\ Amazing\ Spider-Man.ttf");
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+header nav {
+    float: right;
+    padding: 20px 50px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+header nav ul li a{
+    font-family: "spider";
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition:all 0.5s;
+}
+
+header nav ul li a:hover{
+    color:red;
+}
+
+.banner-img{
+    width: 100px;
+    padding: 10px 60px;
+}
+
+.jogar-menu{
+    background-color: red;
+    padding: 10px 15px;
+    color:white;
+    font-family: spider;
+}
+
+.jogar-menu:hover{
+    background-color: white;
+    color:red;
+}
