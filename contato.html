@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/icones/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="/imagens/logo.png">
+        <title>Homem-Aranha: Simbionte Total</title>
+    </head>
+    <body>
+
+        <header>
+            <a href="index.html" title="Home">
+                <img src="imagens/logo.png" title="Logo" alt="Logo" class="banner-img">
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Home"><i class="fa-solid fa-home"></i> HOME</a></li>
+                    <li><a href="sobre.html" title="Sobre"><i class="fa-solid fa-spider"></i> SOBRE</a></li>
+                    <li><a href="galeria.html" title="Galeria"><i class="fa-solid fa-image"></i> GALERIA</a></li>
+                    <li><a href="contato.html" title="Contato"><i class="fa-solid fa-envelope"></i> CONTATO</a></li>
+                    <li><a href="jogar.html" title="Jogar" class="jogar-menu"><i class="fa-solid fa-gamepad"></i> JOGAR</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="titulo-sobre">
+            <i class="fa-solid fa-envelope"></i>
+            ENTRE EM CONTATO
+        </h1>
+
+        <form name="form-contato" id="form-contato">
+            <label for="name">Digite Seu Nome: </label><br>
+            <input type="text" name="name" id="name" size="50" maxlength="40" placeholder="Digite Seu Nome Completo" autocomplete="off" required class="form1"><br><br>
+
+            <label for="email">Digite seu melhor E-mail: </label><br>
+            <input type="email" name="email" id="email" size="50" maxlength="50" placeholder="Digite um E-mail Válido" required autocomplete="on" class="form1" inputmode="email"><br><br>
+
+            <label for="tel">Digite seu telefone: </label><br>
+            <input type="tel" name="tel" id="tel" size="50" maxlength="40" placeholder="Digite seu telefone completo" required autocomplete="on" class="form1" inputmode="tel"><br><br>
+
+            <label for="mensagem">Sua Mensagem: </label><br>
+            <textarea name="mensagem" id="mensagem" required placeholder="Digite uma mensagem" class="form1" rows="10"></textarea><br><br>
+
+            <button type="submit" class="btn-submit"><i class="fa-solid fa-check"></i> ENVIAR DADOS</button>
+            <button type="reset" class="btn-reset">RESETAR</button>
+        </form>
+
+        <footer>
+            <img src="imagens/logo.png" title="Logo" alt="Logo">
+            <ul>
+                <li><p><a href="https://www.instagram.com/spiderman/" title="Instagram do Homem-Aranha" target="_blank"><i class="fa-brands fa-instagram"></i></a></p></li>
+                <li><p><a href="https://www.playstation.com/pt-br/games/marvels-spider-man-2/" title="Marvel's Spider-Man 2 para Playstation 5" target="_blank"><i class="fa-brands fa-playstation"></i></a></p></li>
+                <li><p><a href="https://www.youtube.com/@spiderman" title="Canal do Youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a></p></li>
+            </ul>
+            <p class="desenvolvido">Desenvolvido por Matheus Pires Costa</p>
+        </footer>
+
+        
+        <script src="script.js" defer></script>
+    </body>
+</html>

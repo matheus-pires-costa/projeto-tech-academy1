@@ -238,6 +238,54 @@ header nav ul li a:hover{
     width:400px;
 }
 
+form{
+    margin-left:200px;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.form1{
+    text-align: left;
+    width: 80%;
+    margin-top: 7px;
+    padding: 10px 5px;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+}
+
+.form1:focus{
+    background-color:rgb(206, 225, 255);
+    color:rgb(0, 0, 0);
+}
+
+label{
+    color:#494949;
+}
+
+.btn-submit, .btn-reset{
+    background-color:green;
+    border:none;
+    padding: 15px 20px 10px 20px;
+    color:white;
+    font-family:spider;
+    font-size: 18px;
+    border-radius:40px;
+    margin-right:20px;
+}
+
+.btn-reset{
+    background-color:red;
+}
+
+#enviado{
+    display:none;
+    color: green;
+    margin-top:20px;
+}
+
+
 footer, footer p{
     color: white;
 }
@@ -280,4 +328,10 @@ footer ul li p a i:hover{
     margin: 0;
     padding-left: 50px;
     padding-bottom: 20px;
+}
+
+@media (max-width: 420px){
+    header,footer{
+        width: 100%;
+    }
 }
