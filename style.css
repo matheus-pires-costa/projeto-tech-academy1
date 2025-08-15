@@ -43,6 +43,9 @@ header nav ul li a{
 
 header nav ul li a:hover{
     color:red;
+    background-color: white;
+    padding:15px 20px 10px 20px;
+
 }
 
 .banner-img{
@@ -217,13 +220,31 @@ header nav ul li a:hover{
     
 }
 
+.grid2{
+    display:grid;
+    grid-template-columns: repeat(3, 33.33%);
+    width: 100%;
+    margin: 60px 0px;
+}
+
+.coluna2{
+    margin: 15px 30px 15px;
+    border: 5px solid black;
+    width: 100%;
+
+}
+
+.coluna2, img{
+    width:400px;
+}
+
 footer, footer p{
     color: white;
 }
 
 footer img{
     width: 150px;
-    margin:20px 380px 20px 620px;
+    margin:20px 340px 20px 660px;
     box-sizing: border-box;
     
 }
@@ -235,9 +256,7 @@ footer ul{
 
 footer ul li{
     display:inline-block;
-    margin: 10px;
-
-    
+    margin: 10px;    
 }
 
 footer ul li p a i{
