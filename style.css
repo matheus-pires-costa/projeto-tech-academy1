@@ -5,7 +5,7 @@ body{
 
 @font-face {
     font-family:"spider" ;
-    src: url("/fonte/The\ Amazing\ Spider-Man.ttf");
+    src: url(fonte/The\ Amazing\ Spider-Man.ttf)
 }
 
 header, footer{
@@ -68,7 +68,7 @@ header nav ul li a:hover{
 
 .banner1{
     width: 100%;
-    background-image: url(/imagens/banner1.png);
+    background-image: url(imagens/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
