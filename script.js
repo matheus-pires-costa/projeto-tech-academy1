@@ -8,3 +8,7 @@
       form.reset(); 
     });
   });
+
+  function mostrarmenu(){
+    document.querySelector("header nav").classList.toggle("mostrar");
+  }
